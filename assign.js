@@ -12,3 +12,7 @@ let array2 = fullName.split('')
 //remove the first and last  letter
 
 let arr3 = arr2.shift()
+
+//remove the last character
+
+arr3 = arr2.pop()

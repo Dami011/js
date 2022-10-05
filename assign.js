@@ -20,3 +20,9 @@ arr3 = arr2.pop()
 //remove the empty space
 
 arr3 = arr2.splice(arr2.indexOf(''), 1)
+
+//remove the fifth character and add your middle name
+
+arr3 = arr2.pop()
+arr2.splice(4,1, 'glory')
+

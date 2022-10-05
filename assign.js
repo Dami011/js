@@ -26,3 +26,8 @@ arr3 = arr2.splice(arr2.indexOf(''), 1)
 arr3 = arr2.pop()
 arr2.splice(4,1, 'glory')
 
+//push the length of the array into it
+
+arr3 = arr1.push(arr2.length)
+console.log(arr1)
+

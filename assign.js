@@ -16,3 +16,7 @@ let arr3 = arr2.shift()
 //remove the last character
 
 arr3 = arr2.pop()
+
+//remove the empty space
+
+arr3 = arr2.splice(arr2.indexOf(''), 1)
